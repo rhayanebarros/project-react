@@ -4,8 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import './styles/globals.css';
-import './app.css';
+import './styles/tailwind.css'; // <- use Tailwind como entrada de CSS
 
 const router = createBrowserRouter([
   {

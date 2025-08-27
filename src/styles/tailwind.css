@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* (Opcional) estilos globais complementares */
+:root {
+  --bg: #0b0c0f;
+  --fg: #e7e9ea;
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply m-0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
