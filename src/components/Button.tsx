@@ -6,7 +6,7 @@ export default function Button({ children, className = '', ...rest }: Props) {
   return (
     <button
       {...rest}
-      className={`inline-flex h-10 items-center justify-center rounded-lg border border-zinc-300 px-4 hover:bg-zinc-100 ${className}`}
+      className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer ${className}`}
     >
       {children}
     </button>
